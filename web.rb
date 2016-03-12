@@ -21,5 +21,5 @@ __END__
 
 @@ index
 <div>
-  This is a sample Sinatra appliation with wovnrb.
+  This is a sample Sinatra application using wovnrb.
 </div>
