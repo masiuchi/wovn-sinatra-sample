@@ -1,4 +1,10 @@
 require 'sinatra'
+require 'wovnrb'
+
+use Wovnrb::Interceptor, {
+  :user_token => 'IRb6-',
+  :secret_key => 'secret',
+}
 
 get '/' do
   erb :index
@@ -14,4 +20,6 @@ __END__
 </html>
 
 @@ index
-Welcome!
+<div>
+  This is a sample Sinatra appliation with wovnrb.
+</div>
