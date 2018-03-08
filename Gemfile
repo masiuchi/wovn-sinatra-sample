@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-# ruby  "2.1.8"
+ruby  "2.3.3"
 gem 'sinatra'
 gem 'wovnrb', :github => 'masiuchi/wovnrb'
 gem 'nokogiri', '~> 1.8.1'
